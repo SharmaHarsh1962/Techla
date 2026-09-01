@@ -14,65 +14,12 @@ exit; }
 </head>
 <body>
     
-<nav class="navbar">
-    <div class="logo">
-        <svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#a78bfa"/>
-                    <stop offset="100%" stop-color="#7c3aed"/>
-                </linearGradient>
-            </defs>
-            <polygon points="20,2 36,11 36,29 20,38 4,29 4,11" fill="url(#logoGrad)"/>
-            <path d="M13 15 H27 M20 15 V27" stroke="white" stroke-width="3" stroke-linecap="round"/>
-        </svg>
-        TECHLA
-    </div>
+<?php include 'includes/navbar.php'; ?>
 
-    <div class="nav-links">
-        <a href="index.php">Home</a>
-        <a href="ai-chat.html">AI Chat</a>
-        <a href="tools.html">Tools</a>
-        <a href="learn.html">Learn</a>
-        <a href="projects.html">Projects</a>
-        <a href="community.html">Community</a>
-        <a href="about.html">About</a>
-    </div>
-
-    <div class="nav-actions">
-        <button class="icon-btn"><i class="fas fa-magnifying-glass"></i></button>
-        <button class="icon-btn"><i class="fas fa-sun"></i></button>
-        <a href="php/logout.php" class="signin-btn">Log Out</a>
-    </div>
-</nav>
 
 <div class="page-wrapper">
 
-    <aside class="sidebar">
-        <ul class="sidebar-links">
-            <li><a href="index.php"><i class="fas fa-house"></i> Home</a></li>
-            <li><a href="ai-chat.html"><i class="fas fa-comment-dots"></i> AI Chat</a></li>
-            <li><a href="tools.html"><i class="fas fa-screwdriver-wrench"></i> Tools</a></li>
-            <li><a href="learn.html"><i class="fas fa-book-open"></i> Learn</a></li>
-            <li><a href="projects.html"><i class="fas fa-folder"></i> Projects</a></li>
-            <li><a href="community.html"><i class="fas fa-users"></i> Community</a></li>
-            <li><a href="about.html"><i class="fas fa-circle-info"></i> About</a></li>
-        </ul>
-
-        <div class="upgrade-box">
-            <h4>Upgrade to Pro</h4>
-            <p>Unlock unlimited chat, advanced tools & more.</p>
-            <button>Upgrade Now</button>
-        </div>
-
-        <div class="user-profile">
-            <i class="fas fa-circle-user"></i>
-            <div>
-                <p><?php echo htmlspecialchars($_SESSION['username']); ?></p>
-                <small>Free Plan</small>
-            </div>
-        </div>
-    </aside>
+    <?php include 'includes/sidebar.php'; ?>
 
     <main class="main-content">
         <div class="welcome-badge"><i class="fas fa-hand"></i> <?php echo htmlspecialchars($_SESSION['username']); ?></div>
