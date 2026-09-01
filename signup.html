@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Techla</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="auth-wrapper">
+    <div class="auth-card">
+        <h2>Create your account</h2>
+        <p class="subtitle">Join Techla to save your chats and projects</p>
+
+        <form action="php/signup_process.php" method="POST">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required minlength="8">
+
+            <button type="submit" class="signin-btn full-width">Sign Up</button>
+        </form>
+
+        <p class="switch-auth">Already have an account? <a href="login.html">Log in</a></p>
+    </div>
+</div>
+
+</body>
+</html>

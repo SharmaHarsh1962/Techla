@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In - Techla</title>
+    <link rel="stylesheet" href="CSS/style.css?v=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="auth-wrapper">
+    <div class="auth-card">
+        <h2>Welcome back</h2>
+        <p class="subtitle">Log in to your Techla account</p>
+
+        <form action="php/login_process.php" method="POST">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="signin-btn full-width">Log In</button>
+        </form>
+
+        <p class="switch-auth">Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+</div>
+
+</body>
+</html>
