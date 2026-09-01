@@ -68,7 +68,7 @@ exit; }
         <div class="user-profile">
             <i class="fas fa-circle-user"></i>
             <div>
-                <p>Harsh Sharma</p>
+                <p><?php echo htmlspecialchars($_SESSION['username']); ?></p>
                 <small>Free Plan</small>
             </div>
         </div>
@@ -93,7 +93,7 @@ exit; }
                 <div class="message ai-message">
                     <div class="avatar"><i class="fas fa-microchip"></i></div>
                     <div class="message-text">
-                        Hi Harsh! I'm Techla AI. Ask me anything or explore topics you're interested in.
+                        Hi <?php echo htmlspecialchars($_SESSION['username']); ?>! I'm Techla AI. Ask me anything or explore topics you're interested in.
                     </div>
                 </div>
             </div>

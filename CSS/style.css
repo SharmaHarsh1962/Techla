@@ -590,3 +590,12 @@ blockquote footer {
 .switch-auth a {
     color: var(--purple-light);
 }
+
+.message.user-message {
+    justify-content: flex-end;
+}
+
+.user-message .message-text {
+    background-color: var(--purple);
+    color: var(--text-white);
+}
