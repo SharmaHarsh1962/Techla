@@ -939,3 +939,361 @@ blockquote footer {
 .todo-delete-form {
     display: inline;
 }
+.feed {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 640px;
+}
+
+.feed-post {
+    display: block;
+    border-radius: 14px;
+    padding: 18px;
+    background: rgba(21, 21, 43, 0.45);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.feed-post:hover {
+    border-color: var(--purple);
+}
+
+.feed-post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.feed-avatar {
+    font-size: 32px;
+    color: var(--purple-light);
+}
+
+.feed-post-header small {
+    display: block;
+    color: var(--text-gray);
+    font-size: 12px;
+}
+
+.feed-content {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.feed-github-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--purple-light);
+    background: rgba(124, 58, 237, 0.15);
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.feed-post-footer {
+    color: var(--text-gray);
+    font-size: 13px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.feed-post {
+    cursor: pointer;
+}
+.feed-post-header {
+    position: relative;
+}
+
+.feed-delete-form {
+    margin-left: auto;
+}
+
+.feed-delete-btn {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-gray);
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.feed-delete-btn:hover {
+    background: #dc2626;
+    color: white;
+}
+.feed-post-detail {
+    cursor: default;
+    margin-bottom: 28px;
+    max-width: 640px;
+}
+
+.comments-section {
+    max-width: 640px;
+}
+
+.comments-heading {
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: var(--text-gray);
+}
+
+.comment-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.comment-form input {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-white);
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.comment-form input:focus {
+    outline: none;
+    border-color: var(--purple);
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.comment-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 14px;
+    border-radius: 10px;
+    background: rgba(21, 21, 43, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.comment-avatar {
+    font-size: 22px;
+    color: var(--purple-light);
+    flex-shrink: 0;
+}
+
+.comment-body {
+    flex: 1;
+}
+
+.comment-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.comment-meta small {
+    color: var(--text-gray);
+    font-size: 11px;
+}
+
+.comment-body p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.comment-delete-form {
+    display: inline;
+}
+
+.comment-delete-btn {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-gray);
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    font-size: 11px;
+    flex-shrink: 0;
+}
+
+.comment-delete-btn:hover {
+    background: #dc2626;
+    color: white;
+}
+.about-page {
+    max-width: 640px;
+}
+
+.about-card {
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+    background: rgba(21, 21, 43, 0.45);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.about-avatar-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 2px solid var(--purple-light);
+    display: block;
+}
+
+.about-role {
+    color: var(--text-gray);
+    font-size: 14px;
+}
+
+.about-header h2 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.about-bio {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.about-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.about-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-link:hover {
+    background: var(--purple);
+}
+
+.upcoming-image {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    max-height: 280px;
+    object-fit: cover;
+}
+
+.upcoming-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    color: var(--text-gray);
+    text-align: center;
+}
+
+.upcoming-placeholder i {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.about-profile-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resource-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background: rgba(21, 21, 43, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.resource-title {
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+}
+
+.resource-title:hover {
+    color: var(--purple-light);
+}
+
+.resource-title i {
+    font-size: 11px;
+    color: var(--text-gray);
+}
+
+.resource-body p {
+    font-size: 13px;
+    color: var(--text-gray);
+    line-height: 1.5;
+}
+
+.resource-actions {
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.resource-edit-btn,
+.resource-delete-btn {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-gray);
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    font-size: 11px;
+}
+
+.resource-edit-btn:hover {
+    background: var(--purple);
+    color: white;
+}
+
+.resource-delete-btn:hover {
+    background: #dc2626;
+    color: white;
+}
+
+.resource-delete-form {
+    display: inline;
+}

@@ -6,11 +6,11 @@ exit; }
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Techla</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <?php
+        $pageTitle = 'Home';
+        $pageDescription = "Techla is Harsh's personal workspace featuring an AI assistant, project showcase, notes, to-dos, and a community feed for sharing what you're building.";
+            include 'includes/head.php';
+?>
 </head>
 <body>
     
@@ -80,7 +80,7 @@ exit; }
                     <p>Learning Path</p>
                     <small>Start Learning</small>
                 </a>
-                <a href="projects.html" class="action-item">
+                <a href="projects.php" class="action-item">
                     <i class="fas fa-folder-open"></i>
                     <p>My Projects</p>
                     <small>View Projects</small>

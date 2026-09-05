@@ -14,14 +14,13 @@
     </div>
     <div class="nav-links">
         <a href="index.php">Home</a>
-        <a href="ai-chat.html">AI Chat</a>
         <a href="tools.html">Tools</a>
         <a href="notes.php">Notes</a>
-        <a href="learn.html">Learn</a>
+        <a href="learn.php">Learn</a>
         <a href="projects.php">Projects</a>
         <a href="todos.php">TodoList</a>
-        <a href="community.html">Community</a>
-        <a href="about.html">About</a>
+        <a href="community.php">Community</a>
+        <a href="about.php">About</a>
     </div>
     <div class="nav-actions">
         <button class="icon-btn"><i class="fas fa-magnifying-glass"></i></button>
