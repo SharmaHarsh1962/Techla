@@ -49,7 +49,7 @@ exit; }
                 <button class="suggestion-btn"><i class="fas fa-code"></i> Explain React in simple terms</button>
                 <button class="suggestion-btn"><i class="fas fa-palette"></i> Best practices for CSS?</button>
                 <button class="suggestion-btn"><i class="fas fa-rocket"></i> Help me plan a project</button>
-                <button class="suggestion-btn"><i class="fas fa-lightbulb"></i> Tell me a fun fact!</button>
+                <button class="suggestion-btn"><i class="fas fa-lightbulb"></i> Tell me about the new tech thats growing!</button>
             </div>
 
             <div class="chat-input-area">
