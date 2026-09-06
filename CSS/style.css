@@ -1297,3 +1297,72 @@ blockquote footer {
 .resource-delete-form {
     display: inline;
 }
+.tools-main-heading {
+    font-size: 20px;
+    margin: 32px 0 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.model-section {
+    margin-bottom: 24px;
+}
+
+.model-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--purple-light);
+}
+
+.task-subtitle {
+    font-size: 13px;
+    color: var(--text-gray);
+    margin: 12px 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.prompt-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background: rgba(21, 21, 43, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    margin-bottom: 8px;
+}
+
+.prompt-body strong {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.prompt-text {
+    font-size: 13px;
+    color: var(--text-gray);
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.copy-prompt-btn {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-gray);
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    font-size: 11px;
+}
+
+.copy-prompt-btn:hover {
+    background: var(--purple);
+    color: white;
+}

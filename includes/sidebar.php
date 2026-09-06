@@ -1,7 +1,7 @@
 <aside class="sidebar">
     <ul class="sidebar-links">
         <li><a href="index.php"><i class="fas fa-house"></i> Home</a></li>
-        <li><a href="tools.html"><i class="fas fa-screwdriver-wrench"></i> Tools</a></li>
+        <li><a href="tools.php"><i class="fas fa-screwdriver-wrench"></i> Tools</a></li>
         <li><a href="notes.php"><i class="fas fa-note-sticky"></i> Notes</a></li>
         <li><a href="learn.php"><i class="fas fa-book-open"></i> Learn</a></li>
         <li><a href="projects.php"><i class="fas fa-folder"></i> Projects</a></li>
